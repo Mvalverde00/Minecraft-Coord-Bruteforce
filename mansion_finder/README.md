@@ -14,10 +14,10 @@ This depends on the Cubiomes library, so first build that to produce the library
 
 Then build the mansion finder with
 ```
-gcc find_mansion.c libcubiomes.a -lm -o find_mansions.a
+gcc find_mansion.c libcubiomes.a -lm -o find_mansions
 ```
 
 and run with
 ```
-./find_mansions.a
+./find_mansions
 ```
